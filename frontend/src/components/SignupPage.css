@@ -1,0 +1,86 @@
+.signup-container {
+    background: url("./financialBg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    /* margin: 50px auto; */
+    /* max-width: 500px; */
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .signup-container button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(56, 53, 53);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+   
+
+  }
+  .signup-container button:hover{
+    transform: scale(1.1);
+    transition: 200ms ease-in-out;
+    background-color: rgb(38, 36, 36);
+    box-shadow: 0 0 10px black;
+  }
+
+  .signup-container .rules ul{
+    display: flex;
+    flex-direction: column;
+    /* flex-start: start; */
+    align-items: flex-start;
+    text-decoration: none;
+
+    
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signup-container label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+  }.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }.containers{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* justify-content: space-evenly; */
+    
+    
+  }
+  
+  .signup-container input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+   
+  }  
